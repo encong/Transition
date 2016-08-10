@@ -15,6 +15,7 @@
 		424A3DD01D5BA9B500237B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424A3DCE1D5BA9B500237B0D /* LaunchScreen.storyboard */; };
 		424A3DDB1D5BA9B500237B0D /* PresentViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 424A3DDA1D5BA9B500237B0D /* PresentViewControllerTests.m */; };
 		424A3DE61D5BA9B500237B0D /* PresentViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 424A3DE51D5BA9B500237B0D /* PresentViewControllerUITests.m */; };
+		424A3DF51D5BA9CD00237B0D /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424A3DF41D5BA9CD00237B0D /* PresentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		424A3DE11D5BA9B500237B0D /* PresentViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424A3DE51D5BA9B500237B0D /* PresentViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewControllerUITests.m; sourceTree = "<group>"; };
 		424A3DE71D5BA9B500237B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424A3DF31D5BA9CD00237B0D /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		424A3DF41D5BA9CD00237B0D /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				424A3DC41D5BA9B500237B0D /* AppDelegate.m */,
 				424A3DC61D5BA9B500237B0D /* ViewController.h */,
 				424A3DC71D5BA9B500237B0D /* ViewController.m */,
+				424A3DF31D5BA9CD00237B0D /* PresentViewController.h */,
+				424A3DF41D5BA9CD00237B0D /* PresentViewController.m */,
 				424A3DC91D5BA9B500237B0D /* Main.storyboard */,
 				424A3DCC1D5BA9B500237B0D /* Assets.xcassets */,
 				424A3DCE1D5BA9B500237B0D /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				424A3DC81D5BA9B500237B0D /* ViewController.m in Sources */,
 				424A3DC51D5BA9B500237B0D /* AppDelegate.m in Sources */,
+				424A3DF51D5BA9CD00237B0D /* PresentViewController.m in Sources */,
 				424A3DC21D5BA9B500237B0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
